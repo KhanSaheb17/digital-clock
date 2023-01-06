@@ -17,7 +17,7 @@
 
 
 
-  let date = new Date("oct 5,2022 20:00:00").getTime();
+  let date = new Date("mar 13,2022 09:00:00").getTime();
   let now = new Date().getTime();
   let gap = date - now;
   let d = Math.floor(gap / day);
@@ -39,7 +39,7 @@
 
 
 
-dd.style.strokeDashoffset = 295 - (295/13)*d;
+dd.style.strokeDashoffset = 295 - (295/67)*d;
 hh.style.strokeDashoffset = 295 - (295 /24)*h;
   mm.style.strokeDashoffset = 295 - (295 /60)*m;
   ss.style.strokeDashoffset =295- (295.5 / 60) * s;
